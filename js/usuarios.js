@@ -6,11 +6,13 @@ const Usuarios = {
 
   // Etiquetas legibles para los turnos
   TURNO_LABELS: {
-    'tiempo-completo':  '🌅 Mañana (8:00 am – 12:00 pm)', '🌇 Tarde (1:00 pm – 7:00 pm)',
-    //'tarde-completo':   '🌇 Tarde (1:00 pm – 7:00 pm)',
+    'mañana-completo':  '🌅 Mañana (7:00 am – 1:00 pm)',
+    'tarde-completo':   '🌇 Tarde (1:00 pm – 7:00 pm)',
     'partido-completo': '🔄 Partido (8:00–12:00 / 3:00–7:00 pm)',
-    'mañana-medio':     '🌅 Mañana (8:00 am – 1:00 pm)',
-    'tarde-medio':      '🌇 Tarde (1:00 pm – 7:00 pm)',
+    'mañana-medio':     '🌅 Mañana (7:00 am – 10:00 am)',
+    'mediodia-medio':   '☀️ Mediodía (10:00 am – 1:00 pm)',
+    'tarde-medio':      '🌇 Tarde (3:00 pm – 6:00 pm)',
+    'noche-medio':      '🌆 Noche (5:00 pm – 8:00 pm)',
   },
 
   async load() {
