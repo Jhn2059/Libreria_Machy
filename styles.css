@@ -1215,8 +1215,64 @@ tr:hover td {
 }
 
 /* ====================================
-   EMPTY
+   MODAL USUARIOS — HORARIO
    ==================================== */
+.mu-section-label {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  color: var(--ink3);
+  margin-bottom: .5rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.horario-btns {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
+
+.horario-btn {
+  flex: 1;
+  min-width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: .75rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--border);
+  background: var(--paper);
+  cursor: pointer;
+  font-family: var(--font);
+  transition: all .18s;
+  color: var(--ink2);
+}
+
+.horario-btn:hover {
+  border-color: var(--green);
+  background: var(--green-bg);
+  color: var(--green-txt);
+}
+
+.horario-btn.active {
+  border-color: var(--green);
+  background: var(--green-bg);
+  color: var(--green-txt);
+}
+
+.hbtn-ico {
+  font-size: 1.4rem;
+}
+
+.hbtn-label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
 .empty {
   text-align: center;
   padding: 3rem 1rem;
